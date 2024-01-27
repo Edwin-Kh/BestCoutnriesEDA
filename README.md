@@ -1,5 +1,5 @@
 # BestCoutnriesEDA
-Exploratory Data Analysis and some Linear Regression machine learning on a public data set.
+Exploratory Data Analysis and some Linear Regression machine learning on a public data set done by me, Khoo Ed Win. This project was done with the intention of familiarising myself with data analysis, python and machine learning.
 This notebook is used for practice and learning purposes. The dataset used in this notebook is publically available via Kaggle at the following
 URL: [https://www.kaggle.com/datasets/rafsunahmad/best-country-to-live-in-2024/code] by Rafsun Ahmad.
 
