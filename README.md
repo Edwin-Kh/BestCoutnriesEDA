@@ -3,28 +3,26 @@ Exploratory Data Analysis and some Linear Regression machine learning on a publi
 This notebook is used for practice and learning purposes. The dataset used in this notebook is publically available via Kaggle at the following
 URL: [https://www.kaggle.com/datasets/rafsunahmad/best-country-to-live-in-2024/code] by Rafsun Ahmad.
 
-# Table of Contents
-1. Loading Important Libraries
-2. Loading the dataset
-3. Learning the dataset
-    - Dataset Summary
-    - Statistical Summary
-4. Data Cleaning
-    - Handling Duplicate Entires
-    - Handling Missing Values
-    - Handling Outliers
-    - Converting Data Types
-5. Exploratory Data Analysis
-6. Data Preprocessing
-    - Feature Engineering
-    - Feature Scaling
-    - Data Encoding
-7. Model Building
-    - Splitting Data into Training and Testing Sets
-    - Selecting a Model
-    - Training the Model
-    - Evaluating the Model
-    - Hyperparameter Tuning
-    - Re-evaluation
-8. Interpretation and Conclusions
-9. Miscellaneous
+![alt text](https://imgur.com/mxX2J6y "Total Population by Region")
+
+
+## Results
+| Model               | MSE       | Cross-Validation Score | R-squared Score |
+| ------------------- |:---------:| ----------------------:|----------------:|
+| Linear Regression   | 0.003023  | 0.996526               | 0.996932        |
+| Support Vector      | 1.187656  | -0.204841              | -0.205358       |
+| Random Forest       | 0.101470  | 0.916920               | 0.897017        |
+| K-Nearest Neighbour | 1.725262  | -0.401874              | -0.750977       |
+
+## Evaluation
+1. **Linear Regression**
+--*This model had the lowest Mean Squared Error (MSE), the highest cross-validation score, and the highest R-squared score. This indicates that it has the best performance among the four models. It's making the most accurate predictions with the least error, and it's explaining a high proportion of the variance in the target variable.
+
+2. **Support Vector**
+--*This model had a high MSE, a negative cross-validation score, and a negative R-squared score. This indicates that it's performing poorly. It's making inaccurate predictions with a high error, and it's not explaining the variance in the target variable well.
+
+3. **Random Forest**
+--*This model had a relatively low MSE, a high cross-validation score, and a high R-squared score. This indicates that it's performing well, but not as well as the Linear Regression model. It's making fairly accurate predictions with a relatively low error, and it's explaining a good proportion of the variance in the target variable.
+
+4. **K-Nearest Neighbour**
+--*This model had the highest MSE, a negative cross-validation score, and a negative R-squared score. This indicates that it's performing the worst among the four models. It's making the least accurate predictions with the highest error, and it's not explaining the variance in the target variable well.
