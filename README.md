@@ -3,9 +3,6 @@ Exploratory Data Analysis and some Linear Regression machine learning on a publi
 This notebook is used for practice and learning purposes. The dataset used in this notebook is publically available via Kaggle at the following
 URL: [https://www.kaggle.com/datasets/rafsunahmad/best-country-to-live-in-2024/code] by Rafsun Ahmad.
 
-![alt text]([https://imgur.com/mxX2J6y](https://github.com/Edwin-Kh/best-coutnries-eda/tree/main/images/TotalPopulationByRegion "Total Population by Region")
-
-
 ## Results
 | Model               | MSE       | Cross-Validation Score | R-squared Score |
 | ------------------- |:---------:| ----------------------:|----------------:|
