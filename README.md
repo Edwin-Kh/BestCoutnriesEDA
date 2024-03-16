@@ -13,13 +13,13 @@ URL: [https://www.kaggle.com/datasets/rafsunahmad/best-country-to-live-in-2024/c
 
 ## Evaluation
 1. **Linear Regression**
---*This model had the lowest Mean Squared Error (MSE), the highest cross-validation score, and the highest R-squared score. This indicates that it has the best performance among the four models. It's making the most accurate predictions with the least error, and it's explaining a high proportion of the variance in the target variable.
+--*THad the lowest Mean Squared Error (MSE), the highest cross-validation score, and the highest R-squared score. This indicates that it has the best performance among the four models. It's making the most accurate predictions with the least error, and it's explaining a high proportion of the variance in the target variable.
 
 2. **Support Vector**
---*This model had a high MSE, a negative cross-validation score, and a negative R-squared score. This indicates that it's performing poorly. It's making inaccurate predictions with a high error, and it's not explaining the variance in the target variable well.
+--*Had a high MSE, a negative cross-validation score, and a negative R-squared score. This indicates that it's performing poorly. It's making inaccurate predictions with a high error, and it's not explaining the variance in the target variable well.
 
 3. **Random Forest**
---*This model had a relatively low MSE, a high cross-validation score, and a high R-squared score. This indicates that it's performing well, but not as well as the Linear Regression model. It's making fairly accurate predictions with a relatively low error, and it's explaining a good proportion of the variance in the target variable.
+--*Had a relatively low MSE, a high cross-validation score, and a high R-squared score. This indicates that it's performing well, but not as well as the Linear Regression model. It's making fairly accurate predictions with a relatively low error, and it's explaining a good proportion of the variance in the target variable.
 
 4. **K-Nearest Neighbour**
---*This model had the highest MSE, a negative cross-validation score, and a negative R-squared score. This indicates that it's performing the worst among the four models. It's making the least accurate predictions with the highest error, and it's not explaining the variance in the target variable well.
+--*Had the highest MSE, a negative cross-validation score, and a negative R-squared score. This indicates that it's performing the worst among the four models. It's making the least accurate predictions with the highest error, and it's not explaining the variance in the target variable well.
